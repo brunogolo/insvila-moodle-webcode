@@ -15,3 +15,8 @@
 <p dir="ltr" style="text-align: left;"></p>
 <h5><span>
 ```
+
+### 'Examples' text i box lila
+```html
+<p class="subtitol_oswald_lila"><span class="" style="font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif;"><strong>EXEMPLES</strong></span></p>
+```
