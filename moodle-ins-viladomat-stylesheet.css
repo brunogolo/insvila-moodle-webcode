@@ -1,0 +1,1594 @@
+/**
+* CSS MOODLE INSTITUT VILADOMAT
+* @versio 12
+*/
+/** ============================ PROVA ACCORDION ============================ */
+#container-acor {
+    margin: 0 auto;
+    width: 90%;
+}
+#accordion input {
+	display: none;
+}
+#accordion label {
+	background: #eee;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion label:hover {
+	background: #ccc;
+}
+
+#accordion input:checked + label {
+	background: #ccc;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion article {
+	background: #f7f7f7;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion article p {
+	padding: 1em;
+}
+
+#accordion input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PROVA ACCORDION LILA ============================ */
+#accordion-lila input {
+	display: none;
+}
+#accordion-lila label {
+	background: #e1cdef;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion-lila label:hover {
+	background: #ceace4;
+}
+
+#accordion-lila input:checked + label {
+	background: #ceace4;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion-lila article {
+	background: #f5eef9;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion-lila article p {
+	padding: 1em;
+}
+
+#accordion-lila input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PROVA ACCORDION GRIS ============================ */
+#accordion-gris input { display: none;}
+#accordion-gris label { background: #ebe8ed; border-radius: .25em; cursor: pointer; display: block; margin-bottom: .125em; padding: .25em 1em; z-index: 20;}
+#accordion-gris label:hover {background: #dedbe0;}
+#accordion-gris input:checked + label {background: #dedbe0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; color: white; margin-bottom: 0;}
+#accordion-gris article {background: #f4f4f4; height:0px; overflow:hidden; z-index:10;}
+#accordion-gris article p {padding: 1em;}
+#accordion-gris input:checked ~ article {border-bottom-left-radius: .25em; border-bottom-right-radius: .25em; height: auto;
+ margin-bottom: .125em;}
+/** ============================ PROVA ACCORDION VERD ============================ */
+#accordion-verd input {
+	display: none;
+}
+#accordion-verd label {
+	background: #ABD6AB;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion-verd label:hover {
+	background: #ABD6AB;
+}
+
+#accordion-verd input:checked + label {
+	background: #ABD6AB;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion-verd article {
+	background: #E1F7E1;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion-verd article p {
+	padding: 1em;
+}
+
+#accordion-verd input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PROVA ACCORDION vermell ============================ */
+#accordion-vermell input {
+	display: none;
+}
+#accordion-vermell label {
+	background: #EF7373;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion-vermell label:hover {
+	background: #ED9595;
+}
+
+#accordion-vermell input:checked + label {
+	background: #ED9595;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion-vermell article {
+	background: #F0D3D3;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion-vermell article p {
+	padding: 1em;
+}
+
+#accordion-vermell input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PROVA ACCORDION BLAVA ============================ */
+#accordion-blau input {
+	display: none;
+}
+#accordion-blau label {
+	background: #8484ED;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion-blau label:hover {
+	background: #8484ED;
+}
+#accordion-blau input:checked + label {
+	background: #8484ED;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion-blau article {
+	background: #DCDCF4;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion-blau article p {
+	padding: 1em;
+}
+
+#accordion-blau input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PROVA ACCORDION TARONJA ============================ */
+#accordion-taronja input {
+	display: none;
+}
+#accordion-taronja label {
+	background: #EFDACD;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion-taronja label:hover {
+	background: #E4C8AC;
+}
+#accordion-taronja input:checked + label {
+	background: #E4C8AC;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion-taronja article {
+	background: #F9F2EE;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion-taronja article p {
+	padding: 1em;
+}
+
+#accordion-taronja input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PROVA ACCORDION TARONJA 3 ============================ */
+#accordion-taronja3 input {
+	display: none;
+}
+#accordion-taronja3 label {
+	background: #f2e5c6;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion-taronja3 label:hover {
+	background: #f2bd43;
+}
+#accordion-taronja3 input:checked + label {
+	background: #f2bd43;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion-taronja3 article {
+	background: #f2e8d0;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion-taronja3 article p {
+	padding: 1em;
+}
+
+#accordion-taronja3 input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PROVA ACCORDION BLAUCOMIC ============================ */
+#accordion-blaucomic input {
+	display: none;
+}
+#accordion-blaucomic label {
+	background: #E0FAFF;
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	z-index: 20;
+}
+#accordion-blaucomic label:hover {
+	background: #8DECFF;
+}
+#accordion-blaucomic input:checked + label {
+	background: #8DECFF;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: white;
+	margin-bottom: 0;
+}
+#accordion-blaucomic article {
+	background: #EAFBFF;
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion-blaucomic article p {
+	padding: 1em;
+}
+
+#accordion-blaucomic input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+}
+/** ============================ PANELS ============================ */
+.panelvila-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#d6e9c6;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#3c763d;
+background-color:#dff0d8;
+border-top-color:#d6e9c6;
+border-right-color:#d6e9c6;
+border-left-color:#d6e9c6;
+}
+.panelvila-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2.2rem;
+color:inherit;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight:700;
+}
+.panelvila-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.panelvila-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#d6e9c6;
+border-right-color:#d6e9c6;
+border-bottom-color:#d6e9c6;
+border-left-color:#d6e9c6;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS segon lila ============================ */
+.pan2lila-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#d4b4ea;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#f3eaf9;
+border-top-color:#d4b4ea;
+border-right-color:#d4b4ea;
+border-left-color:#d4b4ea;
+}
+.pan2lila-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2lila-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2lila-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#d4b4ea;
+border-right-color:#d4b4ea;
+border-bottom-color:#d4b4ea;
+border-left-color:#d4b4ea;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ HR separacio generals lila ============================ */
+hr.style13lila {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #ceace4 inset;
+}
+/** ============================ PANELS segon verd ============================ */
+.pan2verd-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#d6e9c6;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#064f01;
+background-color:#dff0d8;
+border-top-color:#d6e9c6;
+border-right-color:#d6e9c6;
+border-left-color:#d6e9c6;
+}
+.pan2verd-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2verd-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2verd-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#d6e9c6;
+border-right-color:#d6e9c6;
+border-bottom-color:#d6e9c6;
+border-left-color:#d6e9c6;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ HR separacio generals verd ============================ */
+hr.style13verd {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #86C986 inset;
+}
+/** ============================ PANELS segon vermell ============================ */
+.pan2vermell-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#F2C2C1;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#F9E5E5;
+border-top-color:#F2C2C1;
+border-right-color:#F2C2C1;
+border-left-color:#F2C2C1;
+}
+.pan2vermell-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2vermell-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2vermell-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#F2C2C1;
+border-right-color:#F2C2C1;
+border-bottom-color:#F2C2C1;
+border-left-color:#F2C2C1;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ HR separacio generals vermell ============================ */
+hr.style13vermell {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #EA504D inset;
+}
+/** ============================ PANELS segon GRANATE ============================ */
+.pan2granate-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#9d020d;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#f3d6d8;
+border-top-color:#9d020d;
+border-right-color:#9d020d;
+border-left-color:#9d020d;
+}
+.pan2granate-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2granate-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2granate-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#9d020d;
+border-right-color:#9d020d;
+border-bottom-color:#9d020d;
+border-left-color:#9d020d;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ HR separacio generals granate ============================ */
+hr.style13vermell {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #EA504D inset;
+}
+/** ============================ PANELS segon blau ============================ */
+.pan2blau-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#C2BFEF;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#E4E3F7;
+border-top-color:#C2BFEF;
+border-right-color:#C2BFEF;
+border-left-color:#C2BFEF;
+}
+.pan2blau-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2blau-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2blau-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#C2BFEF;
+border-right-color:#C2BFEF;
+border-bottom-color:#C2BFEF;
+border-left-color:#C2BFEF;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS segon taronja ============================ */
+.pan2taronja-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#FF8000;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#FFE4C9;
+background-color:#FCEAD9;
+border-top-color:#FF8000;
+border-right-color:#FF8000;
+border-left-color:#FF8000;
+}
+.pan2taronja-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#E55700;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2taronja-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2taronja-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#FF8000;
+border-right-color:#FF8000;
+border-bottom-color:#FF8000;
+border-left-color:#FF8000;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS segon gris ============================ */
+.pan2gris-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#BDBDBD;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#F2F2F2;
+border-top-color:#BDBDBD;
+border-right-color:#BDBDBD;
+border-left-color:#BDBDBD;
+}
+.pan2gris-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#4F4D4C;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2gris-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2gris-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#BDBDBD;
+border-right-color:#BDBDBD;
+border-bottom-color:#BDBDBD;
+border-left-color:#BDBDBD;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS segon rosa ============================ */
+.pan2rosa-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#F408B5;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#F7E1F2;
+border-top-color:#F408B5;
+border-right-color:#F408B5;
+border-left-color:#F408B5;
+}
+.pan2rosa-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#C10790;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2rosa-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2rosa-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#F408B5;
+border-right-color:#F408B5;
+border-bottom-color:#F408B5;
+border-left-color:#F408B5;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS segon blaucomic ============================ */
+.pan2blaucomic-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#38D4FA;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#38D4FA;
+background-color:#DFF9FF;
+border-top-color:#38D4FA;
+border-right-color:#38D4FA;
+border-left-color:#38D4FA;
+}
+.pan2blaucomic-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#019EC6;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan2blaucomic-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan2blaucomic-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:1px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:1px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#38D4FA;
+border-right-color:#38D4FA;
+border-bottom-color:#38D4FA;
+border-left-color:#38D4FA;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ HR separacio generals blaucomic ============================ */
+hr.style13blaucomic {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #00AAD4 inset;
+}
+/** ============================ HR separacio generals blau ============================ */
+hr.style13blau {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #564CE8 inset;
+}
+/** ============================ HR separacio generals taronja ============================ */
+hr.style13taronja {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #FF8000 inset;
+}
+/** ============================ HR separacio generals rosa ============================ */
+hr.style13rosa {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #FF00D5 inset;
+}
+/** ============================ ESTILS PAGINES MOODLE ============================ */
+.amb_fons_lila {
+  /* background properties */
+  background: #C8A2C8;
+}
+.amb_fons_mens {
+  /* background properties */
+  background: url(http://www.institutviladomat.cat/css/imatges/div/mens_sana_1.png); width: 100%; height: 100vh;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.amb_fons h1{
+  font-family: 'Verdana';
+  text-align:center;
+  color:#4c2a5d;
+  font-size: 800%;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 10px solid
+}
+.titol_llibre_blanc{
+  font-family: 'Verdana';
+  text-align:center;
+  color:#ffffff;
+  font-size: 800%;
+  font-weight: bold;
+  padding: 20px;
+}
+.titol_llibre_negre{
+  font-family: 'Verdana';
+  text-align:center;
+  color:#000000;
+  font-size: 800%;
+  font-weight: bold;
+  padding: 20px;
+}
+.opensans{
+    font-family: "Open Sans";
+    color: rgbargba(0,0,0);
+    font-size: 18px;
+    line-height: 1.6;
+}
+.opensans-bold{
+    font-family: "Open Sans";
+    color: rgba(0,0,0);
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.titol_oswald_lila{
+  font-family: Oswald;
+  color:#4c2a5d;
+  text-align: center;
+  font-size: 80px;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-bottom: 20px;
+  border-bottom-width: 14px;
+  border-bottom-style: solid;
+  border-bottom-color: #163752;;
+  display: block;
+}
+.amb_oswald_lila h2{
+  font-family: 'Oswald';
+  text-align:center;
+  color:#4c2a5d;
+  font-size: 800%;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 10px solid
+}
+.subtitol_oswald_lila{
+  font-family: Oswald;
+  color:#4c2a5d;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-bottom: 20px;
+  border-bottom-width: 14px;
+  border-bottom-style: solid;
+  border-bottom-color: #4c2a5d;
+  display: block;
+}
+/** ============================ apartats de primer ============================ */
+.enquesta_vermella .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/enquesta_vermella.svg)}
+.video_lila .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/video_lila.svg)}
+.presentacio_lila .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/presentacio_lila.svg)}
+.rubrica_blava .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/rubrica_blau.svg)}
+.enquesta_taronja .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/enquesta_taronja.svg)}
+.planol_taronja .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/planol_taronja.svg)}
+.collage_lila .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/collage_lila.svg)}
+.wordface_blau .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/wordface_blau.svg)}
+.caricatura_lila .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/caricatura_lila.svg)}
+.voki_blau .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/voki_blau.svg)}
+.sentits_verd .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/sentits_verd.svg)}
+.profe_vermell .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/profe_vermell.svg)}
+.escola_blau .exe_header{background-image:url(http://www.institutviladomat.cat/css/imatges/escola_blau.svg)}
+
+
+/** ============================ PANELS SEGON LÃNIA MÃ‰S GRUIXUDA ============================ */
+/** ============================ PANELS 3 lila ============================ */
+.pan3lila-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#d4b4ea;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#f3eaf9;
+border-top-color:#d4b4ea;
+border-right-color:#d4b4ea;
+border-left-color:#d4b4ea;
+}
+.pan3lila-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3lila-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3lila-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#d4b4ea;
+border-right-color:#d4b4ea;
+border-bottom-color:#d4b4ea;
+border-left-color:#d4b4ea;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+/** ============================ PANELS 3 verd ============================ */
+.pan3verd-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#d6e9c6;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#064f01;
+background-color:#dff0d8;
+border-top-color:#d6e9c6;
+border-right-color:#d6e9c6;
+border-left-color:#d6e9c6;
+}
+.pan3verd-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3verd-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3verd-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#d6e9c6;
+border-right-color:#d6e9c6;
+border-bottom-color:#d6e9c6;
+border-left-color:#d6e9c6;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+/** ============================ PANELS 3 vermell ============================ */
+.pan3vermell-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#F2C2C1;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#F9E5E5;
+border-top-color:#F2C2C1;
+border-right-color:#F2C2C1;
+border-left-color:#F2C2C1;
+}
+.pan3vermell-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3vermell-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3vermell-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#F2C2C1;
+border-right-color:#F2C2C1;
+border-bottom-color:#F2C2C1;
+border-left-color:#F2C2C1;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+/** ============================ PANELS 3 blau ============================ */
+.pan3blau-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#C2BFEF;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#E4E3F7;
+border-top-color:#C2BFEF;
+border-right-color:#C2BFEF;
+border-left-color:#C2BFEF;
+}
+.pan3blau-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+color:inherit;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3blau-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3blau-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#C2BFEF;
+border-right-color:#C2BFEF;
+border-bottom-color:#C2BFEF;
+border-left-color:#C2BFEF;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS 3 taronja ============================ */
+.pan3taronja-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#FF8000;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#FFE4C9;
+background-color:#FCEAD9;
+border-top-color:#FF8000;
+border-right-color:#FF8000;
+border-left-color:#FF8000;
+}
+.pan3taronja-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#E55700;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3taronja-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3taronja-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#FF8000;
+border-right-color:#FF8000;
+border-bottom-color:#FF8000;
+border-left-color:#FF8000;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS 3 gris ============================ */
+.pan3gris-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#BDBDBD;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#F2F2F2;
+border-top-color:#BDBDBD;
+border-right-color:#BDBDBD;
+border-left-color:#BDBDBD;
+}
+.pan3gris-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#4F4D4C;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3gris-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3gris-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#BDBDBD;
+border-right-color:#BDBDBD;
+border-bottom-color:#BDBDBD;
+border-left-color:#BDBDBD;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS 3 rosa ============================ */
+.pan3rosa-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#F408B5;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#d4b4ea;
+background-color:#F7E1F2;
+border-top-color:#F408B5;
+border-right-color:#F408B5;
+border-left-color:#F408B5;
+}
+.pan3rosa-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#C10790;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3rosa-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3rosa-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#F408B5;
+border-right-color:#F408B5;
+border-bottom-color:#F408B5;
+border-left-color:#F408B5;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+/** ============================ PANELS 3 blaucomic ============================ */
+.pan3blaucomic-heading
+{
+padding-top:10px;
+padding-right:15px;
+padding-bottom:10px;
+padding-left:15px;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#38D4FA;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#38D4FA;
+background-color:#DFF9FF;
+border-top-color:#38D4FA;
+border-right-color:#38D4FA;
+border-left-color:#38D4FA;
+}
+.pan3blaucomic-title
+{
+margin-top:0px;
+margin-bottom:0px;
+font-size:2rem;
+/*color:inherit;*/
+color:#019EC6;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:700;
+}
+.pan3blaucomic-body
+{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
+.pan3blaucomic-default
+{
+margin-bottom:20px;
+background-color:#ffffff;
+border-top-width:3px;
+border-right-width:3px;
+border-bottom-width:3px;
+border-left-width:3px;
+border-top-style:solid;
+border-right-style:solid;
+border-bottom-style:solid;
+border-left-style:solid;
+border-top-color:#38D4FA;
+border-right-color:#38D4FA;
+border-bottom-color:#38D4FA;
+border-left-color:#38D4FA;
+border-image-source:none;
+border-image-slice:100% 100% 100% 100%;
+border-image-width:1 1 1 1;
+border-image-outset:0 0 0 0;
+border-image-repeat:stretch stretch;
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+box-shadow:0px 1px 1px rgba(0, 0, 0, 0.05);
+}
